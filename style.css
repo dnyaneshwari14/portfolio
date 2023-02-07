@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.body{
+  background-color:#7e5794;
+
+
+}
+header h1{
+  font-size:80px;
+  font-weight:600;
+  background-color:black;
+  color:white;
+  align-items:center;
+  font-family:'Poppins',sans-serif;
+  
+}
+header h2{
+  font-size: 60px;
+  font-weight:600;
+  color:white;
+  font-family: 'Poppins',sans-serif;
+}
+p{
+  font-size:50px;
+  font-weight:400;
+  color:violet;
+  align-items: center;
+  font-family: 'Poppins',sans-serif;
+}
+
+img {
+  width: 20%;
+  height: auto;
+}
+.btn{
+  font-size:50px;
+  font-weight:700;
+  background-image:linear-gradient(lightblue,pink);
+  color:black;
+  font-style:bold;
+  margin-top:50px;
+  padding:30px;
+  font-family:'Poppins',sans-serif;
+  text:uppercase;
+}
+nav{
+  flex:1;
+  padding-left:450px;
+}
+nav ul li{
+  display: inline-block;
+  list-style:none;
+  margin:0 15px;
+}
+.insta{
+  width: 80px;
+  cursor:pointer;
+}
+.LinkedIn{
+  width:80px;
+  margin-top:10px;
+  cursor:pointer;
+}
+.Gmail{
+  width:80px;
+  position:top-right
+  margin-top:10px;
+  cursor:pointer;
+}
+.github (2){
+  width:80px;
+  margin-top:10px;
+  cursor:pointer;
+}
